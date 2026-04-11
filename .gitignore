@@ -1,0 +1,17 @@
+.DS_Store
+.vscode/
+
+# Build outputs
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# macOS debug artifacts
+*.dSYM/
+
+# Local compiled binaries
+platforms/**/output/
