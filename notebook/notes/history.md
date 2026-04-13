@@ -3,6 +3,7 @@ Here's all the contests Jimmy have participated in.
 ## Codeforces 
 
 -  Codeforces Round 1092 Div 2. (unrated) - 333rd 
+-  Codeforces Round 1093 Div 2. (unrated) - 706th
 
 ## AtCoder 
 
