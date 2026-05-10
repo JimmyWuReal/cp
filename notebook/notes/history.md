@@ -8,4 +8,4 @@ Here's all the contests Jimmy have participated in.
 ## AtCoder 
 
 - AtCoder Beginner Contest 453 - 707th - rating 562 (+562) 
-- AtCoder Beginner Contest 457 - ??? - rating ??? (???)
+- AtCoder Beginner Contest 457 - 957th - rating 953 (+391)
