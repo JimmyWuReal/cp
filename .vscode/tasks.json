@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C++: ensure output folder",
+            "command": "/bin/mkdir",
+            "args": [
+                "-p",
+                "${fileDirname}/output"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++-16 build active file",
+            "command": "g++-16",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-std=gnu++20",
+                "-O2",
+                "-pipe",
+                "-Wall",
+                "-Wextra",
+                "${file}",
+                "-o",
+                "${fileDirname}/output/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "dependsOn": [
+                "C++: ensure output folder"
+            ],
+            "dependsOrder": "sequence",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds the active C++ file into the ignored output folder."
+        }
+    ]
+}

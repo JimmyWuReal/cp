@@ -1,0 +1,4 @@
+{
+    "C_Cpp.default.compilerPath": "g++-16",
+    "C_Cpp.default.cppStandard": "gnu++20"
+}
