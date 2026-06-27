@@ -1,5 +1,9 @@
 .DS_Store
-.vscode/
+.vscode/*
+!.vscode/
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/launch.json
 
 # Build outputs
 *.out
