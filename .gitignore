@@ -4,6 +4,7 @@
 !.vscode/tasks.json
 !.vscode/settings.json
 !.vscode/launch.json
+!.vscode/cp.code-snippets
 
 # Build outputs
 *.out
