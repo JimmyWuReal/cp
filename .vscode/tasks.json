@@ -13,8 +13,8 @@
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: g++-16 build active file",
-            "command": "g++-16",
+            "label": "C/C++: g++ build active file",
+            "command": "/opt/homebrew/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-std=gnu++20",
