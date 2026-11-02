@@ -1,0 +1,64 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C++: create build directory",
+      "type": "process",
+      "command": "mkdir",
+      "args": [
+        "-p",
+        "${workspaceFolder}/.build/${relativeFileDirname}"
+      ],
+      "windows": {
+        "command": "powershell",
+        "args": [
+          "-NoProfile",
+          "-Command",
+          "New-Item -ItemType Directory -Force -LiteralPath $env:CP_BUILD_DIR | Out-Null"
+        ]
+      },
+      "options": {
+        "env": {
+          "CP_BUILD_DIR": "${workspaceFolder}/.build/${relativeFileDirname}"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "C/C++: g++ build active file",
+      "type": "cppbuild",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-g",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/.build/${relativeFileDirname}/${fileBasenameNoExtension}"
+      ],
+      "windows": {
+        "args": [
+          "-std=c++17",
+          "-Wall",
+          "-Wextra",
+          "-g",
+          "${file}",
+          "-o",
+          "${workspaceFolder}/.build/${relativeFileDirname}/${fileBasenameNoExtension}.exe"
+        ]
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn": "C++: create build directory",
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

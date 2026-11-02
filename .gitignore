@@ -1,0 +1,22 @@
+# macOS and Windows metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+
+# Compiled programs and debug symbols (all machines)
+/.build/

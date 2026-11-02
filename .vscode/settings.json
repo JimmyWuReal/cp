@@ -1,0 +1,8 @@
+{
+  "[cpp]": {
+    "editor.tabCompletion": "onlySnippets",
+    "editor.snippetSuggestions": "top"
+  },
+  "C_Cpp.default.compilerPath": "g++",
+  "C_Cpp.default.cppStandard": "c++17"
+}

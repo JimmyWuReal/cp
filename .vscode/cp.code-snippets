@@ -1,0 +1,20 @@
+{
+  "Competitive programming template": {
+    "scope": "cpp",
+    "prefix": "!cp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "int main() {",
+      "    ios::sync_with_stdio(false);",
+      "    cin.tie(nullptr);",
+      "",
+      "    $0",
+      "",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Insert templates/cp.cpp with cursor inside main"
+  }
+}
