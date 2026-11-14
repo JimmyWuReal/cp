@@ -4,5 +4,10 @@
     "editor.snippetSuggestions": "top"
   },
   "C_Cpp.default.compilerPath": "g++",
-  "C_Cpp.default.cppStandard": "c++17"
+  "C_Cpp.default.cppStandard": "c++17",
+  // C/C++ Compile Run extension: build into .build/, mirroring source folders,
+  // so platforms/x/a.cpp -> .build/platforms/x/a (same as tasks.json).
+  "c-cpp-compile-run.output-location": "${workspaceFolder}/.build",
+  "c-cpp-compile-run.mirror-output-location": true,
+  "c-cpp-compile-run.cpp-flags": "-std=c++17 -Wall -Wextra -g3"
 }

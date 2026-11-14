@@ -8,6 +8,8 @@ In a C++ file, type `!cp` and press Tab to insert the template with the cursor
 inside `main`.
 
 Use the C++ Run button or the `C++: run active file` launch configuration.
+The C/C++ Compile Run extension (`danielpinto8zz6.c-cpp-compile-run`, F6) is
+also configured in `.vscode/settings.json` to build into `.build/`.
 The default build shortcut (Cmd+Shift+B on macOS, Ctrl+Shift+B elsewhere) uses
 the same build task. Debugging also requires LLDB on macOS or GDB on Linux/Windows.
 
